@@ -17,6 +17,7 @@ The following patterns are considered problems:
 
 ```js
 /*eslint id-length: 2*/     // default is minimum 2-chars ({ min: 2})
+/*eslint-env es6*/
 
 var x = 5;                  /*error Identifier name 'x' is too short. (< 2)*/
 
@@ -63,6 +64,7 @@ The following patterns are not considered problems:
 
 ```js
 /*eslint id-length: 2*/     // default is minimum 2-chars ({ min: 2})
+/*eslint-env es6*/
 
 var num = 5;
 
@@ -134,6 +136,7 @@ The following patterns will not be considered problems
 
 ```js
 /*eslint id-length: [2, {"properties": "never"}]*/
+/*eslint-env es6*/
 
 var myObj = { a: 1 };
 

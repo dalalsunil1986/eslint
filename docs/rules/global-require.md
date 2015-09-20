@@ -22,6 +22,8 @@ You can enable this rule with the following syntax:
 With the rule enabled enabled the following examples would warn:
 
 ```js
+/*eslint-env es6*/
+
 // calling require() inside of a function is not allowed
 function readFile(filename, callback) {
     var fs = require('fs');
@@ -77,4 +79,3 @@ var x = require("x"),
 
 If you have a module that must be initialized with information that comes from the file-system or if a module
  is only used in very rare situations and will cause significant overhead to load it may make sense to disable the rule.
-

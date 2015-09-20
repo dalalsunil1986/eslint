@@ -96,6 +96,7 @@ function foo(d) {  /*error Expected indentation of 1 tab character but found 0.*
 
 ```js
 /*eslint indent: [2, 2, {"VariableDeclarator": 1}]*/
+/*eslint-env es6*/
 
 var a,
     b,             /*error Expected indentation of 2 space characters but found 4.*/
@@ -145,6 +146,7 @@ if (a) {
 
 ```js
 /*eslint indent: [2, 2, {"VariableDeclarator": 2}]*/
+/*eslint-env es6*/
 
 var a,
     b,
@@ -159,6 +161,7 @@ const a = 1,
 
 ```js
 /*eslint indent: [2, 2, {"VariableDeclarator": { "var": 2, "let": 2, "const": 3}}]*/
+/*eslint-env es6*/
 
 var a,
     b,
