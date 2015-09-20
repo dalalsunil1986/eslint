@@ -78,7 +78,7 @@ The following patterns are considered problems:
 if (a) {
    b=c;            /*error Expected indentation of 2 space characters but found 3.*/
 function foo(d) {  /*error Expected indentation of 2 space characters but found 0.*/
-       e=f;        /*error Expected indentation of 8 space characters but found 7.*/
+       e=f;        /*error Expected indentation of 2 space characters but found 7.*/
 }                  /*error Expected indentation of 6 space characters but found 0.*/
 }
 ```
